@@ -1,0 +1,917 @@
+{
+    "ace": {
+        "search": {
+            "@backwards": "false",
+            "@highlightmatches": "true",
+            "@matchcase": "false",
+            "@preservecase": "false",
+            "@regex": "false",
+            "@wholeword": "false",
+            "@wraparound": "true"
+        }
+    },
+    "breakpoints": {
+        "json()": [
+            {
+                "path": "/dapp/contracts/Venture.sol",
+                "line": 3,
+                "column": 4,
+                "text": "Venture.sol",
+                "content": "    }",
+                "enabled": true
+            }
+        ]
+    },
+    "collab": {
+        "panel": {
+            "members": {
+                "@closed": false
+            },
+            "notifications": {
+                "@closed": true
+            }
+        }
+    },
+    "console": {
+        "@expanded": true,
+        "@height": 330,
+        "@maximized": false,
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "tab6",
+                    "tab2",
+                    "tab4",
+                    "tab0",
+                    "tab5",
+                    "tab3"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab2",
+                    "path": "",
+                    "className": [
+                        "tab2"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "Immediate (Javascript (browser))",
+                        "tooltip": "Immediate (Javascript (browser))",
+                        "immediate": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 2,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 2,
+                                    "column": 0
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0,
+                            "type": "jsbrowser",
+                            "history": [],
+                            "pos": 0
+                        },
+                        "hash": "bc37e9908b413249fe666f189265c03143e4d841",
+                        "meta": {},
+                        "changed": false
+                    },
+                    "editorType": "immediate",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab4",
+                    "path": "",
+                    "className": [],
+                    "document": {
+                        "changed": false,
+                        "meta": {},
+                        "filter": true,
+                        "title": "Ethereum Console",
+                        "ethereum-console": {}
+                    },
+                    "editorType": "ethereum-console",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab0",
+                    "path": "",
+                    "className": [
+                        "tab0"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "bash - \"7b5d93491d59\"",
+                        "tooltip": "bash - \"7b5d93491d59\"",
+                        "terminal": {
+                            "id": "devel_453",
+                            "cwd": "",
+                            "width": 704,
+                            "height": 282,
+                            "scrollTop": 53994
+                        },
+                        "hash": "67452301efcdab8998badcfe10325476c3d2e1f0",
+                        "meta": {},
+                        "changed": false
+                    },
+                    "editorType": "terminal",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab5",
+                    "path": "/angular-app/app.js",
+                    "className": [
+                        "tab5"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "app.js",
+                        "tooltip": "/angular-app/app.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 19,
+                                    "column": 29
+                                },
+                                "end": {
+                                    "row": 19,
+                                    "column": 29
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "9066d9d9f0a5675fbb70147cd65b546cd4d3d64d",
+                        "meta": {
+                            "timestamp": 1449106685216
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab3",
+                    "path": "/angular-app/index.html",
+                    "className": [
+                        "tab3"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "index.html",
+                        "tooltip": "/angular-app/index.html",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 363,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 40,
+                                    "column": 40
+                                },
+                                "end": {
+                                    "row": 40,
+                                    "column": 40
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 32,
+                                "state": "start",
+                                "mode": "ace/mode/html"
+                            }
+                        },
+                        "hash": "589cd84d9cbbaa4df6cb9e5e70fd1deacf350fe7",
+                        "meta": {
+                            "timestamp": 1449109525364
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab6",
+                    "path": "",
+                    "className": [
+                        "tab6",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {},
+                        "filter": true,
+                        "title": "Terminal",
+                        "terminal": {
+                            "id": "devel_167",
+                            "cwd": "",
+                            "width": 696,
+                            "height": 304
+                        }
+                    },
+                    "editorType": "terminal",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "experiments": {
+        "@@enabled": true,
+        "@git": true,
+        "@plugins": true,
+        "@sdk": true
+    },
+    "ext": {
+        "counters": {
+            "@ace": 2,
+            "@acestatus": 2,
+            "@divider": 4,
+            "@document": 19,
+            "@ethereum-console": 1,
+            "@form": 5,
+            "@imgview": 1,
+            "@immediate": 1,
+            "@menu": 5,
+            "@menuitem": 13,
+            "@pane": 7,
+            "@postmessage": 1,
+            "@preferences": 1,
+            "@preview": 1,
+            "@session": 15,
+            "@tab": 14,
+            "@undoManager": 19,
+            "@welcome": 1
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@wholeword": "false"
+    },
+    "menus": {
+        "@minimized": "false"
+    },
+    "nak": {
+        "@installed": true
+    },
+    "panecycle": {
+        "json()": [
+            "tab6",
+            "tab9",
+            "tab16"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "@active-right": "ethergit.ethereum.sandbox.panel",
+        "@width-left": 197,
+        "@width-right": 475,
+        "collab": {
+            "@enabled": "true",
+            "@name": "collab"
+        },
+        "commands.panel": {
+            "@enabled": "true",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "ethergit.ethereum.sandbox.panel": {
+            "@enabled": "true",
+            "@name": "ethergit.ethereum.sandbox.panel"
+        },
+        "navigate": {
+            "@enabled": "true",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "scm": {
+            "@enabled": "true",
+            "@name": "scm"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "@scrollpos": -10,
+        "@showfs": true,
+        "expanded": {
+            "json()": [
+                "/",
+                "/dapp/_pre",
+                "/dapp/contracts",
+                "/server/ethereum",
+                "/server/turing_contracts",
+                "/server/deployed_contracts",
+                "/angular-app/bower_components/lodash",
+                "/angular-app/main",
+                "/angular-app/fs"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "search-history": {
+        "search": {
+            "json()": [
+                "unlock"
+            ]
+        }
+    },
+    "tabs": {
+        "json()": {
+            "focus": "tab6",
+            "nodes": [
+                {
+                    "type": "pane",
+                    "name": "pane0",
+                    "nodes": [
+                        {
+                            "type": "tab",
+                            "name": "tab7",
+                            "path": "/dapp/contracts/Venture.sol",
+                            "className": [
+                                "tab7"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "Venture.sol",
+                                "tooltip": "/dapp/contracts/Venture.sol",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 9,
+                                            "column": 1
+                                        },
+                                        "end": {
+                                            "row": 9,
+                                            "column": 1
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "83520e5ea75a5e2172e38bdebd74d1fedde56600",
+                                "meta": {
+                                    "timestamp": 1449102562005
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab8",
+                            "path": "/ethereum.json",
+                            "className": [
+                                "tab8"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "ethereum.json",
+                                "tooltip": "/ethereum.json",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 6,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 16,
+                                            "column": 74
+                                        },
+                                        "end": {
+                                            "row": 16,
+                                            "column": 74
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "44f70f6f47ed2521c175ed0dc4664219ada24b1c",
+                                "meta": {
+                                    "timestamp": 1449096856359
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab10",
+                            "path": "/server/utilities.js",
+                            "className": [
+                                "tab10"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "utilities.js",
+                                "tooltip": "/server/utilities.js",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 867,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 96,
+                                            "column": 37
+                                        },
+                                        "end": {
+                                            "row": 96,
+                                            "column": 37
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "248e3790b2cd2d20e2ac7fa073bd4a9731780125",
+                                "meta": {
+                                    "timestamp": 1449086190071
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab12",
+                            "path": "/dapp/contracts/DirectedBy.sol",
+                            "className": [
+                                "tab12"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "DirectedBy.sol",
+                                "tooltip": "/dapp/contracts/DirectedBy.sol",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 20,
+                                            "column": 46
+                                        },
+                                        "end": {
+                                            "row": 20,
+                                            "column": 46
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "849297f5f4887f2f572d0741c0362f3c24317efa",
+                                "meta": {
+                                    "timestamp": 1449113437685
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab14",
+                            "path": "/angular-app/main/main.js",
+                            "className": [
+                                "tab14"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "main.js",
+                                "tooltip": "/angular-app/main/main.js",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 0,
+                                            "column": 0
+                                        },
+                                        "end": {
+                                            "row": 12,
+                                            "column": 5
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "9e4ce11346e4a4dabc7f7514f483c3d42e22aa1e",
+                                "meta": {
+                                    "timestamp": 1449108067081
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab15",
+                            "path": "/angular-app/main/main.controller.js",
+                            "className": [
+                                "tab15"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "main.controller.js",
+                                "tooltip": "/angular-app/main/main.controller.js",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 20,
+                                            "column": 37
+                                        },
+                                        "end": {
+                                            "row": 20,
+                                            "column": 37
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "5602ac90c7b6ae3edfc2cae73e9b6f64a7e2135c",
+                                "meta": {
+                                    "timestamp": 1449111696227
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab17",
+                            "path": "/angular-app/main/main.service.js",
+                            "className": [
+                                "tab17"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "main.service.js",
+                                "tooltip": "/angular-app/main/main.service.js",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 1,
+                                            "column": 15
+                                        },
+                                        "end": {
+                                            "row": 1,
+                                            "column": 15
+                                        },
+                                        "isBackwards": true
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "4256c3271399bc133484f4b2049ba874cdf4f7dd",
+                                "meta": {
+                                    "timestamp": 1449108209655
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab1",
+                            "path": "/angular-app/fs/fs.js",
+                            "className": [
+                                "tab1"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "fs.js",
+                                "tooltip": "/angular-app/fs/fs.js",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 10,
+                                            "column": 21
+                                        },
+                                        "end": {
+                                            "row": 10,
+                                            "column": 27
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "55609af561981e8f7881225fd7af4181ee9cf5ca",
+                                "meta": {
+                                    "timestamp": 1449108288592
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab11",
+                            "path": "/angular-app/fs/fs.service.js",
+                            "className": [
+                                "tab11"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "fs.service.js",
+                                "tooltip": "/angular-app/fs/fs.service.js",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 2116,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 224,
+                                            "column": 37
+                                        },
+                                        "end": {
+                                            "row": 224,
+                                            "column": 37
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "32e218671cb6849684681190ce430644ba531dd5",
+                                "meta": {
+                                    "timestamp": 1449113285975
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab18",
+                            "path": "/angular-app/fs/fs.html",
+                            "className": [
+                                "tab18"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "fs.html",
+                                "tooltip": "/angular-app/fs/fs.html",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 5,
+                                            "column": 6
+                                        },
+                                        "end": {
+                                            "row": 5,
+                                            "column": 6
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "8d6f888d460ccf49fd6f43a31d9a0ac79ab61b39",
+                                "meta": {
+                                    "timestamp": 1449109209699
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab19",
+                            "path": "/angular-app/fs/fs.controller.js",
+                            "className": [
+                                "tab19"
+                            ],
+                            "document": {
+                                "filter": true,
+                                "title": "fs.controller.js",
+                                "tooltip": "/angular-app/fs/fs.controller.js",
+                                "ace": {
+                                    "folds": [],
+                                    "scrolltop": 0,
+                                    "scrollleft": 0,
+                                    "selection": {
+                                        "start": {
+                                            "row": 6,
+                                            "column": 24
+                                        },
+                                        "end": {
+                                            "row": 6,
+                                            "column": 24
+                                        },
+                                        "isBackwards": false
+                                    },
+                                    "options": {
+                                        "guessTabSize": true,
+                                        "useWrapMode": false,
+                                        "wrapToView": true
+                                    },
+                                    "firstLineState": 0
+                                },
+                                "hash": "6620c179cf0b34d5dadeeb96695c950495f7cd69",
+                                "meta": {
+                                    "timestamp": 1449109192843
+                                },
+                                "changed": false
+                            },
+                            "editorType": "ace",
+                            "active": false
+                        },
+                        {
+                            "type": "tab",
+                            "name": "tab9",
+                            "path": "/dapp/contracts/FinancialStatement.sol",
+                            "className": [
+                                "tab9"
+                            ],
+                            "document": {
+                                "changed": false,
+                                "meta": {
+                                    "timestamp": 1449123216983
+                                },
+                                "filter": true,
+                                "title": "FinancialStatement.sol",
+                                "tooltip": "/dapp/contracts/FinancialStatement.sol",
+                                "ace": {}
+                            },
+                            "editorType": "ace",
+                            "active": true
+                        }
+                    ],
+                    "skin": "editor_tab",
+                    "skinset": "default",
+                    "meta": {
+                        "accessList": [
+                            "tab9",
+                            "tab7",
+                            "tab8",
+                            "tab10",
+                            "tab12",
+                            "tab14",
+                            "tab15",
+                            "tab17",
+                            "tab1",
+                            "tab11",
+                            "tab18",
+                            "tab19"
+                        ]
+                    }
+                },
+                {
+                    "type": "pane",
+                    "name": "pane6",
+                    "nodes": [
+                        {
+                            "type": "tab",
+                            "name": "tab16",
+                            "path": "/angular-app/main/main.html",
+                            "className": [
+                                "tab16"
+                            ],
+                            "document": {
+                                "changed": false,
+                                "meta": {
+                                    "timestamp": 1449107467654
+                                },
+                                "filter": true,
+                                "title": "main.html",
+                                "tooltip": "/angular-app/main/main.html",
+                                "ace": {}
+                            },
+                            "editorType": "ace",
+                            "active": true
+                        }
+                    ],
+                    "width": "15.973907766990292%",
+                    "skin": "editor_tab",
+                    "skinset": "default",
+                    "meta": {
+                        "accessList": [
+                            "tab16"
+                        ]
+                    }
+                }
+            ],
+            "type": "hsplitbox"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/package.json"
+        ]
+    }
+}

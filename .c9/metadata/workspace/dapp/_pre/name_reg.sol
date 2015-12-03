@@ -1,0 +1,1 @@
+{"filter":false,"title":"name_reg.sol","tooltip":"/dapp/_pre/name_reg.sol","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1448909329971,"hash":"7cc4400df4045c25267bed0d44451cc607865d26"}

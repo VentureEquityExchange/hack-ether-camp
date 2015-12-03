@@ -1,0 +1,28 @@
+{
+  "name": "vex-fsapp",
+  "version": "1.0.0",
+  "description": "Financial Statement Reporting and Auditing for VEX ventures on Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VentureEquityExchange/financial-reporting.git"
+  },
+  "keywords": [
+    "Venture",
+    "Equity",
+    "Exchange",
+    "Ethereum",
+    "Financial",
+    "Statements",
+    "IFRS"
+  ],
+  "author": "Ryan M. Tate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VentureEquityExchange/financial-reporting/issues"
+  },
+  "homepage": "https://github.com/VentureEquityExchange/financial-reporting#readme"
+}
