@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('vexApp')
-  .controller('MainCtrl', function ($scope, Main, $state, FS) {
+  .controller('MainCtrl', function ($scope, Main, $state, FS, $mdDialog, $mdMedia) {
     
     $scope.headline = "Financial Reporting (IFRS) Contract Demos | hack.ether.camp";
     $scope.subhead = "VΞNTURΞ ΞQUITY ΞXCHANGΞ (VΞX)";
@@ -36,5 +36,28 @@ angular.module('vexApp')
     }).catch(function(error){
         console.log(error);
     });
+    
+    
+    $scope.newStatement = function(ev) {
+        $mdDialog.show({
+          controller: 'FSCtrl',
+          templateUrl: 'fs/fs.html',
+          parent: angular.element(document.body),
+          targetEvent: ev,
+          clickOutsideToClose:true,
+          fullscreen: $mdMedia('sm') && $scope.customFullscreen
+        })
+        .then(function(answer) {
+          $scope.status = 'You said the information was "' + answer + '".';
+        }, function() {
+          $scope.status = 'You cancelled the dialog.';
+        });
+        $scope.$watch(function() {
+          return $mdMedia('sm');
+        }, function(sm) {
+          $scope.customFullscreen = (sm === true);
+        });
+      };
 
   });
+ 

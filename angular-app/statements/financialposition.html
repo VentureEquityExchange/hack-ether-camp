@@ -1,0 +1,63 @@
+<div layout="column" ng-cloak class="md-inline-form" >
+  
+  <p class="md-title">Current Assets</p>
+  <md-content layout-padding layout="column" layout-sm="column" ng-repeat="asset in fs.currentAssets">
+    <md-input-container>
+      <label>{{asset.label}} | Value </label>
+      <input ng-model="asset.value" type="number">
+    </md-input-container>
+    <md-input-container>
+      <label>{{asset.label}} | Note </label>
+      <textarea rows="4" cols="25" ng-model="asset.note">{{asset.note}}</textarea>
+    </md-input-container>
+  </md-content>
+  
+  <p class="md-title">Non-Current Assets</p>
+  <md-content layout-padding layout="column" layout-sm="column" ng-repeat="asset in fs.noncurrentAssets">
+    <md-input-container>
+      <label>{{asset.label}} | Value </label>
+      <input ng-model="asset.value" type="number">
+    </md-input-container>
+    <md-input-container>
+      <label>{{asset.label}} | Note </label>
+      <textarea rows="4" cols="25" ng-model="asset.note">{{asset.note}}</textarea>
+    </md-input-container>
+  </md-content>
+  
+  <p class="md-title">Current Liabilities</p>
+  <md-content layout-padding layout="column" layout-sm="column" ng-repeat="liability in fs.currentLiabilities">
+    <md-input-container>
+      <label>{{liability.label}} | Value </label>
+      <input ng-model="liability.value" type="number">
+    </md-input-container>
+    <md-input-container>
+      <label>{{liability.label}} | Note </label>
+      <textarea rows="4" cols="25" ng-model="liability.note">{{liability.note}}</textarea>
+    </md-input-container>
+  </md-content>
+  
+  <p class="md-title">Non-Current Liabilities</p>
+  <md-content layout-padding layout="column" layout-sm="column" ng-repeat="liability in fs.noncurrentLiabilities">
+    <md-input-container>
+      <label>{{liability.label}} | Value </label>
+      <input ng-model="liability.value" type="number">
+    </md-input-container>
+    <md-input-container>
+      <label>{{liability.label}} | Note </label>
+      <textarea rows="4" cols="25" ng-model="liability.note">{{liability.note}}</textarea>
+    </md-input-container>
+  </md-content>
+  
+  <p class="md-title">Equity</p>
+  <md-content layout-padding layout="column" layout-sm="column" ng-repeat="equity in fs.equities">
+    <md-input-container>
+      <label>{{equity.label}} | Value </label>
+      <input ng-model="equity.value" type="number">
+    </md-input-container>
+    <md-input-container>
+      <label>{{equity.label}} | Note </label>
+      <textarea rows="4" cols="25" ng-model="equity.note">{{equity.note}}</textarea>
+    </md-input-container>
+  </md-content>
+  
+</div>

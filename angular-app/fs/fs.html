@@ -1,6 +1,45 @@
-<div layout="column" layout-align="center center">
-  <md-progress-linear md-mode="indeterminate"></md-progress-linear>
-  <p class="md-headline"> {{headline}}</p>
-  <br/>
-  <p class="md-subhead"> {{subhead}}</p>
-</div>
+<md-dialog aria-label="New Financial Statement"  ng-cloak>
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>New Financial Statement</h2>
+      </div>
+    </md-toolbar>
+    <md-dialog-content style="width: 90%">
+      <div class="md-dialog-content">
+        <md-tabs md-dynamic-height md-border-bottom>
+		  <md-tab label="income & retained earnings">
+		    <md-content class="md-padding">
+		      <income></income>
+		    </md-content>
+		  </md-tab>
+		  <!--
+		  <md-tab label="retained earnings">
+		    <md-content class="md-padding">
+		      <retained-earnings></retained-earnings>
+		    </md-content>
+		  </md-tab>
+		  -->
+		  <md-tab label="financial position">
+		    <md-content class="md-padding">
+		      <financial-position></financial-position>
+		    </md-content>
+		  </md-tab>
+		  <md-tab label="cash flow">
+		    <md-content class="md-padding">
+		      <cash-flow></cash-flow>
+		    </md-content>
+		  </md-tab>
+		</md-tabs>
+      </div>
+    </md-dialog-content>
+    <!--
+    <md-dialog-actions layout="row">
+      <md-button md-autofocus ng-click="submitStatement(statement)">
+        Submit
+      </md-button>
+      <span flex></span>
+    </md-dialog-actions>
+    -->
+  </form>
+</md-dialog>

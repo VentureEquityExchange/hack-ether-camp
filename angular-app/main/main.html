@@ -1,6 +1,47 @@
+<!--
 <div layout="column" layout-align="center center">
   <md-progress-linear md-mode="indeterminate"></md-progress-linear>
   <p class="md-headline"> {{headline}}</p>
-  <br/>
   <p class="md-subhead"> {{subhead}}</p>
+  
+  
+  <income></income>
+  <retained-earnings></retained-earnings>
+  <financial-position></financial-position>
+  <cash-flow></cash-flow>
+  
+  
+</div>
+-->
+<div ng-cloak>
+  <md-content>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>
+          <span>VΞNTURΞ ΞQUITY ΞXCHANGΞ (VΞX) | </span>
+        </h2>
+        <md-button aria-label="New FS" ng-click="newStatement($event)">
+          New Financial Statement
+        </md-button>
+        <md-button aria-label="New FS" ng-click="reviewStatements($event)">
+          Review Financial Statements
+        </md-button>
+        <!--
+        <md-button aria-label="Income" ng-click="showIncome($event)">
+          Income
+        </md-button>
+        <md-button aria-label="Retained Earnings">
+          Retained Earnings
+        </md-button>
+        <md-button aria-label="Financial Position">
+          Financial Position
+        </md-button>
+        <md-button aria-label="Cash Flow">
+          Cash Flow
+        </md-button>
+        -->
+        <span flex></span>
+      </div>
+    </md-toolbar>
+  </md-content>
 </div>

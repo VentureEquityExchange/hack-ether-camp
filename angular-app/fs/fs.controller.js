@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('vexApp')
-  .controller('FSCtrl', function ($scope, Main, FS) {
+  .controller('FSCtrl', function ($scope, Main, FS, $mdDialog) {
     
     console.log(FS.abi);
     
@@ -18,5 +18,23 @@ angular.module('vexApp')
     }).catch(function(error){
         console.log(error);
     });
+    
+    $scope.hide = function() {
+        $mdDialog.hide();
+    };
+    $scope.cancel = function() {
+        $mdDialog.cancel();
+    };
+    $scope.answer = function(answer) {
+        $mdDialog.hide(answer);
+    };
+    
+    $scope.isOpen = false;
+    $scope.demo = {
+        isOpen: false,
+        count: 0,
+        selectedDirection: 'left'
+    };
+    
 
   });
