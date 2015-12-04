@@ -2,7 +2,16 @@
 'use strict';
 
 angular.module('vexApp')
-  .controller('FSCtrl', function ($scope, Main, FS, $mdDialog) {
+  .controller('FSCtrl', function ($scope, Main, FS, $mdDialog, $rootScope) {
+    $rootScope.financialStatement = {
+        income : {},
+        cashFlow : {},
+        financialPosition : {}
+    };
+    
+    $scope.submit = function(){
+        console.log($rootScope.financialStatement);
+    }
     
     console.log(FS.abi);
     
@@ -29,12 +38,7 @@ angular.module('vexApp')
         $mdDialog.hide(answer);
     };
     
-    $scope.isOpen = false;
-    $scope.demo = {
-        isOpen: false,
-        count: 0,
-        selectedDirection: 'left'
-    };
+    
     
 
   });

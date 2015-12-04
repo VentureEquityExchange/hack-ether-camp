@@ -1,29 +1,4 @@
-<!--
-<div layout="column">
-    <md-fab-toolbar md-open="demo.isOpen" count="demo.count" md-direction="{{demo.selectedDirection}}">
-    <md-fab-trigger class="align-with-text">
-      <md-button aria-label="publish" class="md-primary">
-        publish
-      </md-button>
-    </md-fab-trigger>
-    <md-toolbar>
-      <md-fab-actions class="md-toolbar-tools">
-        <md-button aria-label="comment" class="md-icon-button">
-          
-        </md-button>
-        <md-button aria-label="label" class="md-icon-button">
-          
-        </md-button>
-        <md-button aria-label="photo" class="md-icon-button">
-          
-        </md-button>
-      </md-fab-actions>
-    </md-toolbar>
-  </md-fab-toolbar>
-</div>
--->
 <div layout="column" ng-cloak class="md-inline-form" ng-repeat="item in income.items">
-  
   <md-content layout-padding layout="column" layout-sm="column">
     <md-input-container>
       <label>{{item.label}} | Value </label>
@@ -33,6 +8,5 @@
       <label>{{item.label}} | Note </label>
       <textarea rows="4" cols="25" ng-model="item.note">{{item.note}}</textarea>
     </md-input-container>
-    
   </md-content>
 </div>

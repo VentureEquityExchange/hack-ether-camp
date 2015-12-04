@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('vexApp')
-  .directive('income', function (FS) {
+  .directive('income', function (FS, $rootScope) {
     return {
       templateUrl: 'statements/income.html',
       restrict: 'EA',
@@ -70,7 +70,8 @@ angular.module('vexApp')
                 note : ''
             }]
         };
-          
+        
+        $rootScope.financialStatement.income = scope.income;     
       }
     };
   });

@@ -2,12 +2,12 @@
 'use strict';
 
 angular.module('vexApp')
-  .directive('financialPosition', function (FS) {
+  .directive('financialPosition', function (FS, $rootScope) {
     return {
       templateUrl: 'statements/financialposition.html',
       restrict: 'EA',
       link: function (scope, element, attrs) {
-        scope.fs = {
+        scope.fp = {
             currentAssets : [{
                 label : 'Cash',
                 value : 0,
@@ -90,6 +90,8 @@ angular.module('vexApp')
                 note : ''
             }]
         }  
+        
+        $rootScope.financialStatement.financialPosition = scope.fp;
       }
     };
   });

@@ -1,1 +1,40 @@
-<p>Cash Flow Directive</p>
+
+<div layout="column" ng-cloak class="md-inline-form" >
+  
+  <p class="md-title">Operating Cash Flows</p>
+  <md-content layout-padding layout="column" layout-sm="column" ng-repeat="item in cashflow.operating">
+    <md-input-container>
+      <label>{{item.label}} | Value </label>
+      <input ng-model="item.value" type="number">
+    </md-input-container>
+    <md-input-container>
+      <label>{{item.label}} | Note </label>
+      <textarea rows="4" cols="25" ng-model="item.note">{{item.note}}</textarea>
+    </md-input-container>
+  </md-content>
+  
+  <p class="md-title">Investing Cash Flows</p>
+  <md-content layout-padding layout="column" layout-sm="column" ng-repeat="item in cashflow.investing">
+    <md-input-container>
+      <label>{{item.label}} | Value </label>
+      <input ng-model="item.value" type="number">
+    </md-input-container>
+    <md-input-container>
+      <label>{{item.label}} | Note </label>
+      <textarea rows="4" cols="25" ng-model="item.note">{{item.note}}</textarea>
+    </md-input-container>
+  </md-content>
+  
+  <p class="md-title">Financing Cash Flows</p>
+  <md-content layout-padding layout="column" layout-sm="column" ng-repeat="item in cashflow.financing">
+    <md-input-container>
+      <label>{{item.label}} | Value </label>
+      <input ng-model="item.value" type="number">
+    </md-input-container>
+    <md-input-container>
+      <label>{{item.label}} | Note </label>
+      <textarea rows="4" cols="25" ng-model="item.note">{{item.note}}</textarea>
+    </md-input-container>
+  </md-content>
+  
+</div>

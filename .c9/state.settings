@@ -251,7 +251,7 @@
     "panecycle": {
         "json()": [
             "tab6",
-            "tab26"
+            "tab19"
         ]
     },
     "panels": {
@@ -324,24 +324,24 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/angular-app/statements/financialposition.html",
+            "focus": "/angular-app/fs/fs.controller.js",
             "meta": {
                 "accessList": [
-                    "tab26",
-                    "tab30",
-                    "tab27",
-                    "tab22",
                     "tab19",
-                    "tab23",
+                    "tab30",
                     "tab29",
+                    "tab23",
+                    "tab22",
+                    "tab21",
+                    "tab26",
+                    "tab24",
+                    "tab25",
+                    "tab27",
                     "tab12",
                     "tab9",
                     "tab7",
                     "tab15",
                     "tab28",
-                    "tab25",
-                    "tab24",
-                    "tab21",
                     "tab8",
                     "tab10",
                     "tab14",
@@ -671,12 +671,13 @@
                     "name": "tab19",
                     "path": "/angular-app/fs/fs.controller.js",
                     "className": [
-                        "tab19"
+                        "tab19",
+                        "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1449184916725
+                            "timestamp": 1449189237025
                         },
                         "filter": true,
                         "title": "fs.controller.js",
@@ -684,7 +685,7 @@
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": false
+                    "active": true
                 },
                 {
                     "type": "tab",
@@ -804,7 +805,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1449175961461
+                            "timestamp": 1449189096360
                         },
                         "filter": true,
                         "title": "cashflow.directive.js",
@@ -824,7 +825,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1449187105174
+                            "timestamp": 1449189105123
                         },
                         "filter": true,
                         "title": "financialposition.directive.js",
@@ -844,7 +845,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1449184881947
+                            "timestamp": 1449189125562
                         },
                         "filter": true,
                         "title": "income.directive.js",
@@ -884,7 +885,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1449176182432
+                            "timestamp": 1449188748930
                         },
                         "filter": true,
                         "title": "cashflow.html",
@@ -899,13 +900,12 @@
                     "name": "tab26",
                     "path": "/angular-app/statements/financialposition.html",
                     "className": [
-                        "tab26",
-                        "focus"
+                        "tab26"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1449186560010
+                            "timestamp": 1449189032713
                         },
                         "filter": true,
                         "title": "financialposition.html",
@@ -913,7 +913,7 @@
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": true
+                    "active": false
                 },
                 {
                     "type": "tab",
@@ -925,7 +925,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1449184460475
+                            "timestamp": 1449187673713
                         },
                         "filter": true,
                         "title": "income.html",
@@ -985,7 +985,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1449187436164
+                            "timestamp": 1449189262074
                         },
                         "filter": true,
                         "title": "fs.html",
@@ -1003,7 +1003,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/angular-app/statements/financialposition.html"
+            "/angular-app/fs/fs.controller.js"
         ]
     }
 }
