@@ -13,19 +13,19 @@
     "breakpoints": {
         "json()": [
             {
-                "path": "/dapp/contracts/Venture.sol",
-                "line": 3,
-                "column": 4,
-                "text": "Venture.sol",
-                "content": "    }",
-                "enabled": true
-            },
-            {
                 "path": "/angular-app/main/main.html",
-                "line": 46,
+                "line": 79,
                 "column": 0,
                 "text": "main.html",
                 "content": "</div>",
+                "enabled": true
+            },
+            {
+                "path": "/dapp/contracts/Venture.sol",
+                "line": 4,
+                "column": 4,
+                "text": "Venture.sol",
+                "content": "    }",
                 "enabled": true
             }
         ]
@@ -42,17 +42,18 @@
     },
     "console": {
         "@expanded": true,
-        "@height": 330,
+        "@height": 118,
         "@maximized": false,
         "json()": {
             "meta": {
                 "accessList": [
                     "tab6",
+                    "tab2",
+                    "tab4",
+                    "tab0",
                     "tab5",
                     "tab3",
-                    "tab0",
-                    "tab2",
-                    "tab4"
+                    "tab23"
                 ]
             },
             "name": "pane1",
@@ -106,11 +107,12 @@
                     "path": "",
                     "className": [],
                     "document": {
-                        "changed": false,
-                        "meta": {},
                         "filter": true,
                         "title": "Ethereum Console",
-                        "ethereum-console": {}
+                        "ethereum-console": {},
+                        "hash": "67452301efcdab8998badcfe10325476c3d2e1f0",
+                        "meta": {},
+                        "changed": false
                     },
                     "editorType": "ethereum-console",
                     "active": false
@@ -123,17 +125,19 @@
                         "tab0"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {},
                         "filter": true,
-                        "title": "bash - \"7b5d93491d59\"",
-                        "tooltip": "bash - \"7b5d93491d59\"",
+                        "title": "node - \"7b5d93491d59\"",
+                        "tooltip": "node - \"7b5d93491d59\"",
                         "terminal": {
                             "id": "devel_453",
                             "cwd": "",
-                            "width": 1171,
-                            "height": 304
-                        }
+                            "width": 1118,
+                            "height": 92,
+                            "scrollTop": 932
+                        },
+                        "hash": "67452301efcdab8998badcfe10325476c3d2e1f0",
+                        "meta": {},
+                        "changed": false
                     },
                     "editorType": "terminal",
                     "active": false
@@ -143,18 +147,43 @@
                     "name": "tab5",
                     "path": "/angular-app/app.js",
                     "className": [
-                        "tab5",
-                        "changed"
+                        "tab5"
                     ],
                     "document": {
-                        "changed": true,
-                        "meta": {
-                            "timestamp": 1449106685216
-                        },
                         "filter": true,
                         "title": "app.js",
                         "tooltip": "/angular-app/app.js",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 63,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 22,
+                                    "column": 4
+                                },
+                                "end": {
+                                    "row": 22,
+                                    "column": 4
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 4,
+                                "state": "start",
+                                "mode": "ace/mode/javascript"
+                            }
+                        },
+                        "hash": "797047a42d217f6d2940946e41adb6a2a1777d2e",
+                        "meta": {
+                            "timestamp": 1449354980267
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -167,14 +196,40 @@
                         "tab3"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449176058561
-                        },
                         "filter": true,
                         "title": "index.html",
                         "tooltip": "/angular-app/index.html",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 282,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 9,
+                                    "column": 22
+                                },
+                                "end": {
+                                    "row": 9,
+                                    "column": 22
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 24,
+                                "state": "start",
+                                "mode": "ace/mode/html"
+                            }
+                        },
+                        "hash": "3c8b332a642b9a48d66f9688be1d0c2b5997b7d2",
+                        "meta": {
+                            "timestamp": 1449176058573
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -195,12 +250,58 @@
                         "terminal": {
                             "id": "devel_167",
                             "cwd": "",
-                            "width": 1171,
-                            "height": 304
+                            "width": 1118,
+                            "height": 92
                         }
                     },
                     "editorType": "terminal",
                     "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab23",
+                    "path": "/angular-app/statements/income.directive.js",
+                    "className": [
+                        "tab23"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "income.directive.js",
+                        "tooltip": "/angular-app/statements/income.directive.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 541,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 73,
+                                    "column": 60
+                                },
+                                "end": {
+                                    "row": 73,
+                                    "column": 60
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 48,
+                                "state": "start",
+                                "mode": "ace/mode/javascript"
+                            }
+                        },
+                        "hash": "0a7736465b18604a38ba8ca077131317f6af2e5c",
+                        "meta": {
+                            "timestamp": 1449189125493
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -216,10 +317,10 @@
     },
     "ext": {
         "counters": {
-            "@ace": 3,
-            "@acestatus": 3,
+            "@ace": 1,
+            "@acestatus": 1,
             "@divider": 4,
-            "@document": 31,
+            "@document": 32,
             "@ethereum-console": 1,
             "@form": 5,
             "@imgview": 1,
@@ -230,9 +331,9 @@
             "@postmessage": 1,
             "@preferences": 1,
             "@preview": 1,
-            "@session": 30,
-            "@tab": 31,
-            "@undoManager": 31,
+            "@session": 26,
+            "@tab": 34,
+            "@undoManager": 32,
             "@welcome": 1
         }
     },
@@ -251,13 +352,13 @@
     "panecycle": {
         "json()": [
             "tab6",
-            "tab19"
+            "tab32"
         ]
     },
     "panels": {
         "@active-left": "tree",
         "@active-right": "none",
-        "@width-left": 197,
+        "@width-left": 250,
         "@width-right": 475,
         "collab": {
             "@enabled": "true",
@@ -306,9 +407,7 @@
                 "/angular-app/bower_components/lodash",
                 "/dapp",
                 "/angular-app",
-                "/angular-app/statements",
-                "/angular-app/main",
-                "/angular-app/fs"
+                "/angular-app/statements"
             ]
         }
     },
@@ -324,56 +423,38 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/angular-app/fs/fs.controller.js",
+            "focus": "tab6",
             "meta": {
                 "accessList": [
-                    "tab19",
-                    "tab30",
-                    "tab29",
-                    "tab23",
-                    "tab22",
-                    "tab21",
-                    "tab26",
-                    "tab24",
-                    "tab25",
-                    "tab27",
-                    "tab12",
-                    "tab9",
-                    "tab7",
-                    "tab15",
-                    "tab28",
                     "tab8",
+                    "tab32",
                     "tab10",
+                    "tab12",
                     "tab14",
+                    "tab15",
                     "tab17",
                     "tab1",
                     "tab11",
+                    "tab19",
+                    "tab9",
                     "tab13",
-                    "tab20"
+                    "tab20",
+                    "tab21",
+                    "tab22",
+                    "tab24",
+                    "tab25",
+                    "tab26",
+                    "tab27",
+                    "tab28",
+                    "tab29",
+                    "tab30",
+                    "tab16",
+                    "tab31",
+                    "tab33"
                 ]
             },
             "name": "pane0",
             "nodes": [
-                {
-                    "type": "tab",
-                    "name": "tab7",
-                    "path": "/dapp/contracts/Venture.sol",
-                    "className": [
-                        "tab7"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449180217081
-                        },
-                        "filter": true,
-                        "title": "Venture.sol",
-                        "tooltip": "/dapp/contracts/Venture.sol",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
                 {
                     "type": "tab",
                     "name": "tab8",
@@ -528,14 +609,36 @@
                         "tab15"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449179942589
-                        },
                         "filter": true,
                         "title": "main.controller.js",
                         "tooltip": "/angular-app/main/main.controller.js",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 42,
+                                    "column": 31
+                                },
+                                "end": {
+                                    "row": 42,
+                                    "column": 31
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "e549527b838be35d283e12de5f714f153f4253fa",
+                        "meta": {
+                            "timestamp": 1449179942599
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -671,26 +774,47 @@
                     "name": "tab19",
                     "path": "/angular-app/fs/fs.controller.js",
                     "className": [
-                        "tab19",
-                        "focus"
+                        "tab19"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449189237025
-                        },
                         "filter": true,
                         "title": "fs.controller.js",
                         "tooltip": "/angular-app/fs/fs.controller.js",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 9,
+                                    "column": 6
+                                },
+                                "end": {
+                                    "row": 9,
+                                    "column": 6
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "b701327ca4af8f8f464b05873f2997c0a7349937",
+                        "meta": {
+                            "timestamp": 1449189303463
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
-                    "active": true
+                    "active": false
                 },
                 {
                     "type": "tab",
                     "name": "tab9",
-                    "path": "/dapp/contracts/FinancialStatement.sol",
+                    "path": "/dapp/contracts/FinancialStatement-v1.sol",
                     "className": [
                         "tab9"
                     ],
@@ -700,8 +824,8 @@
                             "timestamp": 1449123217005
                         },
                         "filter": true,
-                        "title": "FinancialStatement.sol",
-                        "tooltip": "/dapp/contracts/FinancialStatement.sol",
+                        "title": "FinancialStatement-v1.sol",
+                        "tooltip": "/dapp/contracts/FinancialStatement-v1.sol",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -803,14 +927,36 @@
                         "tab21"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449189096360
-                        },
                         "filter": true,
                         "title": "cashflow.directive.js",
                         "tooltip": "/angular-app/statements/cashflow.directive.js",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 72,
+                                    "column": 15
+                                },
+                                "end": {
+                                    "row": 72,
+                                    "column": 15
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "1bfaab4a68c657a62d1f079fb792f081758f1f58",
+                        "meta": {
+                            "timestamp": 1449210968376
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -823,34 +969,36 @@
                         "tab22"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449189105123
-                        },
                         "filter": true,
                         "title": "financialposition.directive.js",
                         "tooltip": "/angular-app/statements/financialposition.directive.js",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab23",
-                    "path": "/angular-app/statements/income.directive.js",
-                    "className": [
-                        "tab23"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449189125562
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 511,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 93,
+                                    "column": 48
+                                },
+                                "end": {
+                                    "row": 93,
+                                    "column": 48
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
                         },
-                        "filter": true,
-                        "title": "income.directive.js",
-                        "tooltip": "/angular-app/statements/income.directive.js",
-                        "ace": {}
+                        "hash": "8b21ea964b66e0ea2c4885c46174cc7735208918",
+                        "meta": {
+                            "timestamp": 1449189105029
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -863,14 +1011,36 @@
                         "tab24"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449176003645
-                        },
                         "filter": true,
                         "title": "retainedearnings.directive.js",
                         "tooltip": "/angular-app/statements/retainedearnings.directive.js",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 6,
+                                    "column": 47
+                                },
+                                "end": {
+                                    "row": 6,
+                                    "column": 47
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "32ee8f902b0e8ceeeb2db6c023cb7985c8ff3231",
+                        "meta": {
+                            "timestamp": 1449176003656
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -883,14 +1053,40 @@
                         "tab25"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449188748930
-                        },
                         "filter": true,
                         "title": "cashflow.html",
                         "tooltip": "/angular-app/statements/cashflow.html",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 25,
+                                    "column": 15
+                                },
+                                "end": {
+                                    "row": 25,
+                                    "column": 15
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 22,
+                                "state": "start",
+                                "mode": "ace/mode/html"
+                            }
+                        },
+                        "hash": "a480f8a55f1da570f551e190409d01fc420c59f6",
+                        "meta": {
+                            "timestamp": 1449188748865
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -903,14 +1099,82 @@
                         "tab26"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449189032713
-                        },
                         "filter": true,
                         "title": "financialposition.html",
                         "tooltip": "/angular-app/statements/financialposition.html",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": [
+                                {
+                                    "start": {
+                                        "row": 27,
+                                        "column": 90
+                                    },
+                                    "end": {
+                                        "row": 27,
+                                        "column": 90
+                                    },
+                                    "isBackwards": false
+                                },
+                                {
+                                    "start": {
+                                        "row": 15,
+                                        "column": 86
+                                    },
+                                    "end": {
+                                        "row": 15,
+                                        "column": 86
+                                    },
+                                    "isBackwards": false
+                                },
+                                {
+                                    "start": {
+                                        "row": 3,
+                                        "column": 86
+                                    },
+                                    "end": {
+                                        "row": 3,
+                                        "column": 86
+                                    },
+                                    "isBackwards": false
+                                },
+                                {
+                                    "start": {
+                                        "row": 51,
+                                        "column": 87
+                                    },
+                                    "end": {
+                                        "row": 51,
+                                        "column": 87
+                                    },
+                                    "isBackwards": false
+                                },
+                                {
+                                    "start": {
+                                        "row": 39,
+                                        "column": 90
+                                    },
+                                    "end": {
+                                        "row": 39,
+                                        "column": 90
+                                    },
+                                    "isBackwards": false
+                                }
+                            ],
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "e3aa154c11f4a74545f05d2a96d5af5f4d06a4d4",
+                        "meta": {
+                            "timestamp": 1449189032628
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -923,14 +1187,36 @@
                         "tab27"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449187673713
-                        },
                         "filter": true,
                         "title": "income.html",
                         "tooltip": "/angular-app/statements/income.html",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 11,
+                                    "column": 6
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "8ffaa84e40e4c92752757ec625b39e7f0f09a0fa",
+                        "meta": {
+                            "timestamp": 1449187673645
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -943,14 +1229,36 @@
                         "tab28"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449176265759
-                        },
                         "filter": true,
                         "title": "retainedearnings.html",
                         "tooltip": "/angular-app/statements/retainedearnings.html",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 0,
+                                    "column": 34
+                                },
+                                "end": {
+                                    "row": 0,
+                                    "column": 34
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "ba1745523f874a2579641933bf4fc384f1b42835",
+                        "meta": {
+                            "timestamp": 1449176265767
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -963,14 +1271,36 @@
                         "tab29"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449179988266
-                        },
                         "filter": true,
                         "title": "main.html",
                         "tooltip": "/angular-app/main/main.html",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 135,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 72,
+                                    "column": 147
+                                },
+                                "end": {
+                                    "row": 72,
+                                    "column": 147
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "d0f62c34e60de55afdb077ea89104d18c872205b",
+                        "meta": {
+                            "timestamp": 1449210800446
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -983,13 +1313,119 @@
                         "tab30"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1449189262074
-                        },
                         "filter": true,
                         "title": "fs.html",
                         "tooltip": "/angular-app/fs/fs.html",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 6,
+                                    "column": 16
+                                },
+                                "end": {
+                                    "row": 6,
+                                    "column": 16
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 43,
+                                "state": "comment",
+                                "mode": "ace/mode/html"
+                            }
+                        },
+                        "hash": "6b38eb01ed843c185e4aac8cda254edc376d323d",
+                        "meta": {
+                            "timestamp": 1449189262006
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab16",
+                    "path": "/dapp/contracts/std.sol",
+                    "className": [
+                        "tab16"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1448909329971
+                        },
+                        "filter": true,
+                        "title": "std.sol",
+                        "tooltip": "/dapp/contracts/std.sol",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab31",
+                    "path": "/dapp/contracts/FinancialStatement-v2.sol",
+                    "className": [
+                        "tab31"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1449361516287
+                        },
+                        "filter": true,
+                        "title": "FinancialStatement-v2.sol",
+                        "tooltip": "/dapp/contracts/FinancialStatement-v2.sol",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab32",
+                    "path": "/dapp/contracts/IncomeStatement.sol",
+                    "className": [
+                        "tab32"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1449363571684
+                        },
+                        "filter": true,
+                        "title": "IncomeStatement.sol",
+                        "tooltip": "/dapp/contracts/IncomeStatement.sol",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab33",
+                    "path": "/dapp/contracts/FinancialPositionStatement.sol",
+                    "className": [
+                        "tab33"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1449363568269
+                        },
+                        "filter": true,
+                        "title": "FinancialPositionStatement.sol",
+                        "tooltip": "/dapp/contracts/FinancialPositionStatement.sol",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -1003,7 +1439,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/angular-app/fs/fs.controller.js"
+            "/dapp/contracts/IncomeStatement.sol"
         ]
     }
 }

@@ -70,10 +70,6 @@ angular.module('vexApp')
                   label : 'Dividends Paid',
                   value : 0,
                   note : ''
-              },{
-                  label : 'Dividends Paid',
-                  value : 0,
-                  note : ''
               }]
           }
           

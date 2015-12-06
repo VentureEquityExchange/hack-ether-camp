@@ -20,4 +20,5 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider, $mdTh
       .primaryPalette('indigo')
       .accentPalette('grey')
       .warnPalette('grey');
+    
 });
